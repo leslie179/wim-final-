@@ -1,0 +1,449 @@
+span {
+    color: #1EAFDE;
+}
+
+.company-logo{
+  padding-left: 140%;
+  padding-right: 20%;
+  padding-top: 25%;
+  max-width: 10em;
+}
+
+a.home-link {
+  background-color: #25C389;
+  color: red;
+  margin: 0% 110%;
+  padding: 10% 0%;
+  height: 80%;
+  width: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+}
+
+.icon-wrapper {
+  width: 30px; 
+  height: 100px; 
+  border-radius: 50%; 
+  background-color: #1EAFDE; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-wrapper {
+  margin-top: 40px; 
+}
+
+.left-arrow {
+  position: absolute; 
+  left: 3%; 
+  top: 50%;
+  transform: translateY(-50%); 
+}
+
+.right-arrow {
+  position: absolute; 
+  right: 3%; 
+  top: 50%; 
+  transform: translateY(-50%); 
+}
+
+
+
+.metro-style-box-text {
+  display: block;
+  border: 0 solid #186AA2;
+  border-left-width: .5rem;
+  background-color: #EFF5FC;
+  padding: .6rem 2.6rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: /* Your font family */;
+  margin:  .2rem;
+}
+
+.retina-ready-box-text {
+  display: block;
+  border: 0 solid #DF6160;
+  border-left-width: .5rem;
+  background-color: #EFF5FC;
+  padding: .6rem 2.6rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: /* Your font family */;
+  margin:  .2rem;
+}
+
+.responsive-design-box-text {
+  display: block;
+  border: 0 solid #FCBB00;
+  border-left-width: .5rem;
+  background-color: #EFF5FC;
+  padding: .6rem 2.6rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: /* Your font family */;
+  margin:  .2rem;
+}
+
+.middle-title h1 {
+  text-align: center;
+  padding: 0%;
+  margin-bottom: 1%; /* Adjust the margin bottom as needed */
+}
+
+.middle-title h1:nth-of-type(2) {
+  margin-top: 0%; /* Adjust the margin top as needed */
+}
+
+.middle-title h3 {
+  text-align: center;
+  padding-top: 1%;
+  margin-top: 2rem; /* Adjust the margin top as needed */
+  margin-bottom: 5px; /* Adjust the margin bottom as needed */
+}
+
+.middle-title h6 {
+  text-align: center;
+  font-size: x-small;
+  padding: 0%;
+  margin-top: 5px; /* Adjust the margin top as needed */
+}
+
+/* Update the grid layout */
+.word-block {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Define four columns */
+  grid-template-rows: auto;
+  grid-gap: 20px; /* Add some gap between grid items */
+}
+
+/* Update the grid area for each block */
+.block-1 {
+  grid-column: 1; /* Place block-1 in the first column */
+  justify-self: center; /* Center horizontally */
+  align-self: start; /* Align to the top vertically */
+  text-align: center;
+}
+
+.block-1 p {
+  padding-left: 1.5rem;
+  padding-right: 1.8rem;
+  line-height: 1rem;
+}
+
+.block-2 {
+  grid-column: 2; /* Place block-2 in the second column */
+  justify-self: center; /* Center horizontally */
+  align-self: start; /* Align to the top vertically */
+  text-align: center;
+}
+
+.block-2 p {
+  padding-left: 1.5rem;
+  padding-right: 1.8rem;
+  line-height: 1rem;
+}
+
+.block-3 {
+  grid-column: 3; /* Place block-3 in the third column */
+  justify-self: center; /* Center horizontally */
+  align-self: start; /* Align to the top vertically */
+  text-align: center;
+}
+
+.block-3 p {
+  padding-left: 1.5rem;
+  padding-right: 1.8rem;
+  line-height: 1rem;
+}
+
+.block-4 {
+  grid-column: 4; /* Place block-4 in the fourth column */
+  justify-self: center; /* Center horizontally */
+  align-self: start; /* Align to the top vertically */
+  text-align: center;
+}
+
+.block-4 p {
+  padding-left: 1.5rem;
+  padding-right: 1.8rem;
+  line-height: 1rem;
+}
+
+.Whats-up-lately h3 {
+  text-align: center;
+  padding: 0%;
+  margin-bottom: 1%;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+
+    "header"
+    "minion"
+    "middleTitle"
+    "things"
+    "lately"
+    "latestProject"
+    "things-that-we-do"
+    "thingsAbove"
+    "logosBar"
+    "footer";
+}
+
+header {
+  grid-area: header;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 10px;
+}
+
+.minion-banner {
+  grid-area: minion;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+
+
+.things-that-we-do,
+.word-block,
+.Whats-up-lately,
+.our-latest-project,
+.Thingsofabove,
+.logos-bar {
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.word-block{
+  display: grid;
+  grid-template-columns: 1fr 1f 1fr 1fr 
+}
+
+p{
+  font-size: x-small;
+}
+
+.sample-image {
+  width: 17rem;
+  max-width: 17rem;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+   justify-content: center; 
+  align-items: center; 
+  padding-left: 4rem;
+}
+
+.sample-image {
+  width: 100%; 
+  height: auto; 
+}
+
+.color-bar {
+  width: 305%; 
+  height: 8%; 
+  background-color: #eaeaea; 
+  margin-top: 12%;
+}
+
+.color-bar::after {
+  content: "";
+  display: block;
+  width: 50%; /* Set the width of the gray section */
+  height: 100%;
+  background: linear-gradient(to right, #1cb1db 50%, transparent 50%); /* Create a linear gradient background with gray on the left and transparent on the right */
+}
+
+.latest-project{
+  margin-top: 5%;
+}
+
+.image-grid-2nd-row{
+  margin-top: 2%;
+}
+
+
+.things-that-we-do,
+.our-latest-project,
+.Whats-up-lately,
+.Thingsofabove {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.our-latest-project {
+  grid-area: latestProject;
+}
+
+.Thingsofabove {
+  grid-area: thingsAbove;
+}
+
+.tab {
+overflow: hidden;
+border: 1px solid #ccc;
+background-color: #F1F1F1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; 
+}
+
+.pair {
+  display: flex;
+  align-items: center;
+}
+
+.tab-icon {
+  max-width: 3rem;
+  width: 3rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.accordion-table {
+min-width: 10%;
+}
+
+.accordion-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+
+
+.tab-icon-icon {
+  width: 20%;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+background-color: #ddd;
+}
+
+.tab button.active {
+   background-color: #ccc;
+  
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border:  1px solid #ccc;
+  border-top: none;
+}
+
+.tabOne {
+  display: block!important;
+}
+
+.logos-bar {
+  text-align: center;
+}
+
+.logobackground{
+  background-color: #eee;
+
+}
+
+footer {
+  grid-area: footer;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-block-1,
+.footer-block-2,
+.footer-block-3,
+.footer-block-4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-link .home-icon {
+  max-height: 30px;
+}
+
+header img {
+  max-height: 50px; 
+  max-width: 100px; 
+}
+
+.banner-image{
+max-width: 1000%;
+width: 310%;
+justify-content: left;
+}
+
+.mainpage{
+    margin: 0 auto;
+    max-width: 70em;
+}
+
+.accordiantab{
+   max-width: 50%;
+   float: left;
+   min-width: 49%;
+   min-height: 20em;
+}
+
+.tabsection{
+  max-width: 50%;
+  float: right;
+  min-width: 49%;
+  min-height: 20em;
+}
+
+.panel{
+  padding: 0 2em;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+.accordian{
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 2em;
+  width: 100%;
+  border:none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordian:hover{
+  background-color: #1cb1db;
+}
+
+.panelone{
+  display: block;
+}
